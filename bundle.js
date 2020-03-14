@@ -1,1 +1,1 @@
-!function(e,t){if("object"==typeof exports&&"object"==typeof module)module.exports=t();else if("
+!function(e,t){if("object"==typeof exports&&"object"==typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define(t);else{var n=t();for(var r in n)("object"==typeof exports?exports:e)[r]=n[r]}}(this,function(){return function(e){function t(r){if(n[r])return n[r].exports;var o=n[r]={exports:{
