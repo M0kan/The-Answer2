@@ -13,4 +13,7 @@ i=!0);var o,s=u.current;u.current=r({},s,e);try{o=n()}finally{u.current=s}return
 	 * @param {string} eventNameSuffix Event name, e.g. "click".
 	 * @param {?boolean} capture Check if the capture phase is supported.
 	 * @return {boolean} True if the event is supported.
-	 * @
+	 * @internal
+	 * @license Modernizr 3.0.0pre (Custom Build) | MIT
+	 */
+function r(e,t){if(!a.canUseDOM||t&&!("addEventListener"in document))return!1;var n="on"+e,r=n in document;if(!r){var i=document.createElement("d
