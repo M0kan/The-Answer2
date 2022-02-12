@@ -28,4 +28,4 @@ className:"hide"}),r.createElement("span",{className:o("btn",{"rounded-left":0==
 	   * https://github.com/Modernizr/Modernizr/blob/master/feature-detects/history.js
 	   * changed to avoid false negatives for Windows Phones: https://github.com/rackt/react-router/issues/586
 	   */
-var e=navigator.userAgent;return-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")?window.history&&"pushState"in window.history:!1}e.exports=r},function(e,t,n){"use strict";fun
+var e=navigator.userAgent;return-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")?window.history&&"pushState"in window.history:!1}e.exports=r},function(e,t,n){"use strict";function r(e){if(null==e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}e.exports=Object.assign||function(e,t){for(var n,o,a=r(e),i=1;i<arguments.length;i++
