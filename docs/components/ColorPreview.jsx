@@ -16,4 +16,11 @@ var ColorPreview = React.createClass({
     }
   },
 
-  render: function () 
+  render: function () {
+    var color = this.props.hex
+    var backgroundColor = this.props.combo.hex
+    var previewStyle = {
+      color: color,
+      backgroundColor: backgroundColor
+    }
+    var contrast = this.props.combo.co
