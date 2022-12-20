@@ -9,4 +9,15 @@ var Body = React.createClass({
 
   render: function () {
     return (
-      <body class
+      <body className="container px2">
+        <Header {...this.props} />
+        <RouteHandler {...this.props} />
+        <Footer {...this.props} />
+      </body>
+    )
+  }
+
+})
+
+module.exports = Body
+
