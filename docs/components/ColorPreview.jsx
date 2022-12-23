@@ -29,4 +29,9 @@ var ColorPreview = React.createClass({
         style={previewStyle}>
         <div className="flex flex-center flex-wrap mxn2">
           <div className="flex-auto px2">
-            <HeadingBadge {...this.
+            <HeadingBadge {...this.props} />
+          </div>
+          <div className="h2 bold px2">{contrast}</div>
+        </div>
+        <h2 className="h1 mt0">Contrast</h2>
+        <p className="">Contrast is the difference in luminance or color t
