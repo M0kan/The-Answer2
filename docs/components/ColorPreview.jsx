@@ -23,4 +23,10 @@ var ColorPreview = React.createClass({
       color: color,
       backgroundColor: backgroundColor
     }
-    var contrast = this.props.combo.co
+    var contrast = this.props.combo.contrast.toFixed(2)
+    return (
+      <div className="mb2"
+        style={previewStyle}>
+        <div className="flex flex-center flex-wrap mxn2">
+          <div className="flex-auto px2">
+            <HeadingBadge {...this.
