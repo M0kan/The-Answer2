@@ -26,4 +26,11 @@ var ForegroundBackgroundForm = React.createClass({
         color: light ? '#111' : '#fff'
       },
       input: {
-        color: 'in
+        color: 'inherit'
+      }
+    }
+    return (
+      <div className="sm-flex flex-center mxn2"
+        style={styles.container}>
+        <div className="sm-col-6 px2">
+          <label htmlFor="foreground-hex-input" className="h5 bold">
