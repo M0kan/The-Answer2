@@ -15,4 +15,15 @@ var ForegroundBackgroundForm = React.createClass({
 
   render: function () {
     var foreground = this.props.foreground
-    var background = this.prop
+    var background = this.props.background
+    try {
+      var light = Color(background).light()
+    } catch(e) {
+      var light = true
+    }
+    var styles = {
+      container: {
+        color: light ? '#111' : '#fff'
+      },
+      input: {
+        color: 'in
