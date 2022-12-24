@@ -33,4 +33,10 @@ var ForegroundBackgroundForm = React.createClass({
       <div className="sm-flex flex-center mxn2"
         style={styles.container}>
         <div className="sm-col-6 px2">
-          <label htmlFor="foreground-hex-input" className="h5 bold">
+          <label htmlFor="foreground-hex-input" className="h5 bold">Foreground</label>
+          <input type="text"
+            id="foreground-hex-input"
+            value={foreground}
+            onChange={this.handleForegroundChange}
+            style={styles.input}
+            className='block col-12 field bg-darken-1'
