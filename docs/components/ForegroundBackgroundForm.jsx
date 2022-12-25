@@ -58,4 +58,11 @@ var ForegroundBackgroundForm = React.createClass({
             value={background}
             onChange={this.props.setBackground} />
         </div>
-     
+      </div>
+    )
+  }
+
+})
+
+module.exports = ForegroundBackgroundForm
+
