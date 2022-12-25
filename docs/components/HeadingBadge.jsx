@@ -34,4 +34,5 @@ var HeadingBadge = React.createClass({
 
 })
 
-module.exports = Heading
+module.exports = HeadingBadge
+
