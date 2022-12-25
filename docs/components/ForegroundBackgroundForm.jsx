@@ -51,4 +51,11 @@ var ForegroundBackgroundForm = React.createClass({
             id="background-hex-input"
             value={background}
             onChange={this.handleBackgroundChange}
-            style={styles.inpu
+            style={styles.input}
+            className='block col-12 field bg-darken-1' />
+          <HslSliders
+            id="background-hsl-sliders"
+            value={background}
+            onChange={this.props.setBackground} />
+        </div>
+     
