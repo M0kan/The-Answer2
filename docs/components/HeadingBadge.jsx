@@ -7,4 +7,16 @@ var HeadingBadge = React.createClass({
     if (!this.props.combo.accessibility) {
       return false
     }
-    var level = this.props.combo.
+    var level = this.props.combo.accessibility
+    var headingClass = 'h00 h00-responsive m0'
+    var styles = {
+      heading: {
+        fontSize: '16vmin'
+      }
+    }
+    var value;
+    if (level.aaa) {
+      value = 'AAA'
+    } else if (level.aa) {
+      value = 'AA'
+    } 
