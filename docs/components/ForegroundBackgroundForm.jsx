@@ -46,4 +46,9 @@ var ForegroundBackgroundForm = React.createClass({
             onChange={this.props.setForeground} />
         </div>
         <div className="sm-col-6 px2">
-          <label htmlFor="background-hex-
+          <label htmlFor="background-hex-input" className="h5 bold">Background</label>
+          <input type="text"
+            id="background-hex-input"
+            value={background}
+            onChange={this.handleBackgroundChange}
+            style={styles.inpu
