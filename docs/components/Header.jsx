@@ -11,4 +11,17 @@ var Header = React.createClass({
         <div className='sm-flex flex-center mxn2'>
           <div className='flex-auto px2 py3'>
             <h1 className='m0'>{this.props.title}</h1>
-       
+            <p className='h3 m0'>{this.props.description}</p>
+          </div>
+          <div className='px2 py3'>
+            <Ad />
+          </div>
+        </div>
+        <TweetButton {...this.props} />
+      </header>
+    )
+  }
+
+})
+
+modu
