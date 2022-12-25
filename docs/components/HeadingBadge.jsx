@@ -19,4 +19,19 @@ var HeadingBadge = React.createClass({
       value = 'AAA'
     } else if (level.aa) {
       value = 'AA'
-    } 
+    } else if (level.aaLarge) {
+      value = 'AA Large'
+    } else {
+      value = 'Fail'
+    }
+    return (
+      <h1 className={headingClass}
+        style={styles.heading}>
+        {value}
+      </h1>
+    )
+  }
+
+})
+
+module.exports = Heading
