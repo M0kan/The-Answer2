@@ -10,4 +10,14 @@ module.exports = React.createClass({
     }
   },
 
-  render: function()
+  render: function() {
+    return (
+      <main className='container px3'>
+        <Header {...this.props} />
+        <Readme {...this.props} />
+      </main>
+    )
+  }
+
+})
+
