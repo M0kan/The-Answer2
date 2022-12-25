@@ -24,4 +24,5 @@ var Header = React.createClass({
 
 })
 
-modu
+module.exports = Header
+
