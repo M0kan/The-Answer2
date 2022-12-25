@@ -39,4 +39,11 @@ var ForegroundBackgroundForm = React.createClass({
             value={foreground}
             onChange={this.handleForegroundChange}
             style={styles.input}
-            className='block col-12 field bg-darken-1'
+            className='block col-12 field bg-darken-1' />
+          <HslSliders
+            id="foreground-hsl-sliders"
+            value={foreground}
+            onChange={this.props.setForeground} />
+        </div>
+        <div className="sm-col-6 px2">
+          <label htmlFor="background-hex-
