@@ -21,4 +21,16 @@ var MatrixDemo = React.createClass({
     if (params.colors) {
       var colors = params.colors.split('.')
     } else {
-      var colo
+      var colors = this.props.colors
+    }
+    return {
+      colors: colors,
+      matrix: colorable(colors),
+      threshold: 0,
+      modalColor: false,
+    }
+  },
+
+  //pushState: _debounce(function() {
+  //  if (!window) return false
+  //  var
