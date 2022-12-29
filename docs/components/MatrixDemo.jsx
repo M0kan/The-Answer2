@@ -33,4 +33,9 @@ var MatrixDemo = React.createClass({
 
   //pushState: _debounce(function() {
   //  if (!window) return false
-  //  var
+  //  var colorString = this.state.colors.join('.')
+  //  var params = {
+  //    colors: colorString,
+  //  }
+  //  var query = '?' + qs.stringify(params)
+  //  window.history.pushState(params,
