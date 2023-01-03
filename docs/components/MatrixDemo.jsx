@@ -55,4 +55,15 @@ var MatrixDemo = React.createClass({
   updateMatrix: function() {
     try {
       var matrix = colorable(this.state.colors, { threshold: this.state.threshold })
-      this.setState(
+      this.setState({ matrix: matrix })
+    } catch(e) {
+    }
+  },
+
+  openModal: function(color) {
+    this.setState({ modalColor: color })
+  },
+
+  closeModal: function() {
+    this.setState({ modalColor: false })
+  
