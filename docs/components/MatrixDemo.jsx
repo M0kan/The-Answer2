@@ -38,4 +38,13 @@ var MatrixDemo = React.createClass({
   //    colors: colorString,
   //  }
   //  var query = '?' + qs.stringify(params)
-  //  window.history.pushState(params,
+  //  window.history.pushState(params, 'Colorable', query)
+  //}, 200),
+
+  updateColors: function(colors) {
+    this.setState({ colors: colors })
+    this.updateMatrix()
+  },
+
+  updateThreshold: function(threshold) {
+    this.setState({ threshold: thres
