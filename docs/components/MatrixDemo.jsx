@@ -47,4 +47,12 @@ var MatrixDemo = React.createClass({
   },
 
   updateThreshold: function(threshold) {
-    this.setState({ threshold: thres
+    this.setState({ threshold: threshold }, function() {
+      this.updateMatrix()
+    })
+  },
+
+  updateMatrix: function() {
+    try {
+      var matrix = colorable(this.state.colors, { threshold: this.state.threshold })
+      this.setState(
