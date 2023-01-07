@@ -115,4 +115,12 @@ var MatrixDemo = React.createClass({
                 updateColors={this.updateColors} />
             </div>
             <div className="flex-auto" style={styles.matrix}>
-        
+              {matrix.map(this.renderRow)}
+            </div>
+          </div>
+        </div>
+        <SuperModal
+          header={modalHeader}
+          onDismiss={this.closeModal}
+          style={styles.modal}
+          isO
