@@ -109,4 +109,10 @@ var MatrixDemo = React.createClass({
       <div className="mb4">
         <div className="white bg-black" style={styles.stage}>
           <div className="flex">
-            <div className="flex-none" style={styles.list}
+            <div className="flex-none" style={styles.list}>
+              <ColorList {...this.props}
+                colors={colors}
+                updateColors={this.updateColors} />
+            </div>
+            <div className="flex-auto" style={styles.matrix}>
+        
