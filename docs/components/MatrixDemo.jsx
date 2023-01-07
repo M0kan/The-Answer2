@@ -66,4 +66,16 @@ var MatrixDemo = React.createClass({
 
   closeModal: function() {
     this.setState({ modalColor: false })
-  
+  },
+
+  componentDidUpdate: function() {
+    //this.pushState()
+  },
+
+  renderRow: function(color, i) {
+    return (
+      <MatrixRow key={i}
+        {...color}
+        openModal={this.openModal} />
+    )
+ 
