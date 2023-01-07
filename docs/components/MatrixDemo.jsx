@@ -98,4 +98,9 @@ var MatrixDemo = React.createClass({
       list: {
       },
       modal: {
-        color: 
+        color: this.state.modalColor ? this.state.modalColor.hex : '#111',
+        backgroundColor: this.state.modalColor ? this.state.modalColor.combo.hex : 'white'
+      }
+    }
+
+    var modalHeader = modalColor ? modalColor
