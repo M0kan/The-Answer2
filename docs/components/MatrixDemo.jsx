@@ -87,3 +87,15 @@ var MatrixDemo = React.createClass({
     var modalIsOpen = !!this.state.modalColor
     var modalColor = this.state.modalColor
     var styles = {
+      stage: {
+        minHeight: '100vh',
+        boxSizing: 'border-box',
+        overflowX: 'auto',
+        WebkitOverflowScrolling: 'touch'
+      },
+      matrix: {
+      },
+      list: {
+      },
+      modal: {
+        color: 
