@@ -103,4 +103,10 @@ var MatrixDemo = React.createClass({
       }
     }
 
-    var modalHeader = modalColor ? modalColor
+    var modalHeader = modalColor ? modalColor.hex + ' on ' + modalColor.combo.hex : 'Blank';
+
+    return (
+      <div className="mb4">
+        <div className="white bg-black" style={styles.stage}>
+          <div className="flex">
+            <div className="flex-none" style={styles.list}
