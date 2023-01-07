@@ -78,4 +78,12 @@ var MatrixDemo = React.createClass({
         {...color}
         openModal={this.openModal} />
     )
- 
+  },
+
+  render: function() {
+    var matrix = this.state.matrix
+    var colors = this.state.colors
+    var threshold = this.state.threshold
+    var modalIsOpen = !!this.state.modalColor
+    var modalColor = this.state.modalColor
+    var styles = {
