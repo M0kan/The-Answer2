@@ -81,3 +81,30 @@ module.exports = React.createClass({
     }
     return (
       <div style={styles.container}>
+        <div style={styles.inner}>
+          <div className="lg-flex flex-center py3"
+            style={styles.preview}>
+            <div className='px4'>
+              <ColorPreview {...color} />
+            </div>
+            <div
+              style={styles.ad}
+              className='flex-none right-align px3'>
+              <Ad />
+            </div>
+          </div>
+          <div className="px2 py3"
+            style={styles.controls}>
+            <ForegroundBackgroundForm
+              {...this.props}
+              {...this.state}
+              setForeground={this.setForeground}
+              setBackground={this.setBackground}
+              />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+})
