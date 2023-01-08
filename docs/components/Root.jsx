@@ -14,4 +14,11 @@ var Root = React.createClass({
     }
     return (
       <html>
-        <Head {...this
+        <Head {...this.props} />
+        <body>
+          <Nav {...this.props} />
+          <RouteHandler {...this.props} />
+          <Footer {...this.props} />
+          <script id='initial-props'
+            type='application/json'
+            dangerouslySetInn
