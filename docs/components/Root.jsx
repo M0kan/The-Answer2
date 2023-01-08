@@ -21,4 +21,14 @@ var Root = React.createClass({
           <Footer {...this.props} />
           <script id='initial-props'
             type='application/json'
-            dangerouslySetInn
+            dangerouslySetInnerHTML={initialProps} />
+          <script src={this.props.baseUrl + 'bundle.js'} />
+        </body>
+      </html>
+    )
+  }
+
+})
+
+function safeStringify(obj) {
+  return JSON.stringify(obj).replace(/<\/script/g, '<\\/script
