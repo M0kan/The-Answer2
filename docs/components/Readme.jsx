@@ -7,4 +7,11 @@ var Readme = React.createClass({
     return (
       <div
         className='prose mb4'
-        dangerouslySetInnerHTML={{ __html: this.
+        dangerouslySetInnerHTML={{ __html: this.props.readme }} />
+    )
+  }
+
+})
+
+module.exports = Readme
+
