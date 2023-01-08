@@ -123,4 +123,15 @@ var MatrixDemo = React.createClass({
           header={modalHeader}
           onDismiss={this.closeModal}
           style={styles.modal}
-          isO
+          isOpen={modalIsOpen}>
+          <ColorPreview {...modalColor} />
+        </SuperModal>
+      </div>
+    )
+
+  }
+
+})
+
+module.exports = MatrixDemo
+
