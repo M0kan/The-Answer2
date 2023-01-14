@@ -15,4 +15,13 @@ var ThresholdToggle = React.createClass({
       { text: 'None', value: 0 },
       { text: 'AA Large', value: 3 },
       { text: 'AA', value: 4.5 },
-      { text: 'AAA'
+      { text: 'AAA', value: 7 },
+    ]
+
+    var renderButton = function(button, i) {
+      var checked = (button.value == self.props.threshold)
+      return (
+        <label key={i}>
+          <input type="radio"
+            value={button.value}
+ 
