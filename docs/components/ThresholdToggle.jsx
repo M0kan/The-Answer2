@@ -24,4 +24,9 @@ var ThresholdToggle = React.createClass({
         <label key={i}>
           <input type="radio"
             value={button.value}
- 
+            checked={checked}
+            onChange={self.handleChange}
+            className="hide"/>
+          <span className={cx('btn', {
+            'rounded-left': (i === 0),
+            'rounded-right
