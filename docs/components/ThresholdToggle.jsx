@@ -29,4 +29,11 @@ var ThresholdToggle = React.createClass({
             className="hide"/>
           <span className={cx('btn', {
             'rounded-left': (i === 0),
-            'rounded-right
+            'rounded-right': (i === buttons.length - 1),
+            'not-rounded': (i !== 0 && i !== buttons.length - 1),
+            'white bg-blue': checked,
+            'btn-outline blue': !checked,
+          })}>
+            {button.text}
+          </span>
+        
