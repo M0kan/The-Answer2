@@ -36,4 +36,12 @@ var ThresholdToggle = React.createClass({
           })}>
             {button.text}
           </span>
+        </label>
+      )
+    }
+    var formClass = 'flex flex-center '
+    formClass += this.props.className
+    return (
+      <form className={formClass}>
+        <label className="h5 bold mr1 sm-show">Threshold</label>
         
