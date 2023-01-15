@@ -11,4 +11,17 @@ var TweetButton = React.createClass({
     return (
       <div className='inline-block'>
         <a href='https://twitter.com/share'
-          class
+          className='twitter-share-button'
+          data-text={text}
+          data-via='jxnblk'
+          data-size='large'>
+          Tweet
+        </a>
+      </div>
+    )
+  }
+
+})
+
+module.exports = TweetButton
+
