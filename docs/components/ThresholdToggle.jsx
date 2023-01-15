@@ -44,4 +44,12 @@ var ThresholdToggle = React.createClass({
     return (
       <form className={formClass}>
         <label className="h5 bold mr1 sm-show">Threshold</label>
-        
+        {buttons.map(renderButton)}
+      </form>
+    )
+  }
+
+})
+
+module.exports = ThresholdToggle
+
