@@ -21,4 +21,20 @@ pre {
 #carbonads a,
 #carbonads a:hover {
   text-decoration: none;
-  color: in
+  color: inherit;
+}
+
+#carbonads span { display: block }
+
+#carbonads > span::before,
+#carbonads > span::after {
+  content: '';
+  display: table;
+}
+#carbonads > span::after {
+  clear: both;
+}
+
+.carbon-img {
+  float: left;
+  margin-
