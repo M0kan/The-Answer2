@@ -4,4 +4,21 @@ pre {
   background-color: var(--darken-1);
 }
 
-.prose p:first
+.prose p:first-child {
+  font-size: var(--h3);
+}
+
+#carbonads {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: left;
+  /*
+  padding: .75em;
+  */
+}
+
+#carbonads a,
+#carbonads a:hover {
+  text-decoration: none;
+  color: in
