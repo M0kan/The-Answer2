@@ -19,4 +19,16 @@ module.exports = function(colors, options) {
 
   _.defaults(options, {
     threshold: 0,
-    compact: fal
+    compact: false,
+    uniq: true
+  });
+
+
+  if (!Array.isArray(colors)) {
+    if (typeof colors === 'object') {
+      _.forIn(colors, function(val, key) {
+        var color = Color(val);
+        color.name = key;
+        arr.push(color);
+      });
+      if (options.u
