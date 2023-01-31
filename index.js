@@ -61,4 +61,11 @@ module.exports = function(colors, options) {
       combination.accessibility = {
         aa: combination.contrast >= minimums.aa,
         aaLarge: combination.contrast >= minimums.aaLarge,
-        aaa: combination.contra
+        aaa: combination.contrast >= minimums.aaa,
+        aaaLarge: combination.contrast >= minimums.aaaLarge,
+      };
+      if (combination.contrast > options.threshold) {
+        result.combinations.push(combination);
+      }
+    });
+ 
