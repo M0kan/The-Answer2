@@ -51,4 +51,9 @@ module.exports = function(colors, options) {
     var result = options.compact ? {} : _.clone(color);
     result.hex = color.hexString();
     if (color.name) { result.name = color.name; }
- 
+    result.combinations = [];
+    arr.forEach(function(bg) {
+      if (color === bg) { return false; }
+      var combination = options.compact ? {} : _.clone(bg);
+      combination.hex = bg.hexString();
+      if (bg.name) { combinat
