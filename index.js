@@ -9,4 +9,14 @@ var minimums = {
   aaaLarge: 4.5
 };
 
-module.
+module.exports = function(colors, options) {
+
+  var arr = [];
+  var results = [];
+  var combinations = [];
+
+  var options = options || {};
+
+  _.defaults(options, {
+    threshold: 0,
+    compact: fal
