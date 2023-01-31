@@ -42,4 +42,13 @@ module.exports = function(colors, options) {
     if (options.uniq) {
       colors = _.uniq(colors);
     }
-    colors.forEach(funct
+    colors.forEach(function(color) {
+      arr.push(Color(color));
+    });
+  }
+
+  arr.forEach(function(color) {
+    var result = options.compact ? {} : _.clone(color);
+    result.hex = color.hexString();
+    if (color.name) { result.name = color.name; }
+ 
