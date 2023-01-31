@@ -56,4 +56,9 @@ module.exports = function(colors, options) {
       if (color === bg) { return false; }
       var combination = options.compact ? {} : _.clone(bg);
       combination.hex = bg.hexString();
-      if (bg.name) { combinat
+      if (bg.name) { combination.name = bg.name; }
+      combination.contrast = color.contrast(bg);
+      combination.accessibility = {
+        aa: combination.contrast >= minimums.aa,
+        aaLarge: combination.contrast >= minimums.aaLarge,
+        aaa: combination.contra
