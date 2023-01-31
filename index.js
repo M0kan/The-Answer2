@@ -31,4 +31,15 @@ module.exports = function(colors, options) {
         color.name = key;
         arr.push(color);
       });
-      if (options.u
+      if (options.uniq) {
+        arr = _.uniq(arr);
+      }
+    } else {
+      console.error('Must provide an array or object');
+      return false;
+    }
+  } else {
+    if (options.uniq) {
+      colors = _.uniq(colors);
+    }
+    colors.forEach(funct
