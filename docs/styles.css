@@ -51,4 +51,7 @@ pre {
 
 @media (min-width: 40em) {
   #carbonads {
-    max-width:
+    max-width: 320px;
+  }
+}
+
