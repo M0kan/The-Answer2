@@ -1,0 +1,7 @@
+{
+  "name": "colorable",
+  "version": "1.0.5",
+  "description": "Color palette combination contrast tester",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r demos & rm bundle.js & rm i

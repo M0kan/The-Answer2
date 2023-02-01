@@ -68,4 +68,10 @@ module.exports = function(colors, options) {
         result.combinations.push(combination);
       }
     });
- 
+    results.push(result);
+  });
+
+  return results;
+
+};
+
