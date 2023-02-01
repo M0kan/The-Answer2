@@ -8,4 +8,12 @@
     "copy": "cp -r colorable/* . && rm -r colorable",
     "webpack": "webpack --progress --colors",
     "webpack-p": "webpack -p --progress --colors",
-    "prod": "npm run clean && np
+    "prod": "npm run clean && npm run webpack-p && npm run copy",
+    "dev": "webpack-dev-server --progress --colors",
+    "start": "npm run dev"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.7.3",
+    "lodas
