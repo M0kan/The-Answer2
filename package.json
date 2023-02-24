@@ -24,4 +24,11 @@
     "colors.css": "^2.3.0",
     "cssnext": "^1.6.0",
     "json-loader": "^0.5.2",
-    "jsx-loader": "^
+    "jsx-loader": "^0.13.2",
+    "marked": "^0.3.3",
+    "node-libs-browser": "^0.5.2",
+    "query-string": "^2.3.0",
+    "react": "^0.13.3",
+    "react-hsl-sliders": "^2.0.0",
+    "react-router": "^0.13.3",
+    "static-site-generator-webpack-plugin": "
