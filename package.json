@@ -44,4 +44,12 @@
   },
   "keywords": [
     "color",
- 
+    "contrast",
+    "wcag",
+    "accessibility"
+  ],
+  "bugs": {
+    "url": "https://github.com/jxnblk/colorable/issues"
+  },
+  "homepage": "https://github.com/jxnblk/colorable"
+}
