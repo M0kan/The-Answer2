@@ -16,4 +16,12 @@
   "license": "MIT",
   "dependencies": {
     "color": "^0.7.3",
-    "lodas
+    "lodash": "^3.1.0"
+  },
+  "devDependencies": {
+    "basscss": "^7.0.0-beta.2",
+    "classnames": "^2.1.2",
+    "colors.css": "^2.3.0",
+    "cssnext": "^1.6.0",
+    "json-loader": "^0.5.2",
+    "jsx-loader": "^
