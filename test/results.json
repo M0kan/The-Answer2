@@ -470,3 +470,226 @@
         "contrast": 3.46455353985494,
         "accessibility": {
           "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#111111",
+        "name": "black",
+        "contrast": 5.450359114780955,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": true
+        }
+      }
+    ]
+  },
+  {
+    "hex": "#85144B",
+    "name": "maroon",
+    "combinations": [
+      {
+        "hex": "#7FDBFF",
+        "name": "aqua",
+        "contrast": 6.129689695312034,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#01FF70",
+        "name": "lime",
+        "contrast": 7.066604417469114,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#39CCCC",
+        "name": "teal",
+        "contrast": 4.858200677551858,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#2ECC40",
+        "name": "green",
+        "contrast": 4.469065755159686,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#FF851B",
+        "name": "orange",
+        "contrast": 3.9213051609634544,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#FFDC00",
+        "name": "yellow",
+        "contrast": 7.043875070514973,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#AAAAAA",
+        "name": "gray",
+        "contrast": 4.110810896920665,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#FFFFFF",
+        "name": "white",
+        "contrast": 9.549919563234313,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#DDDDDD",
+        "name": "silver",
+        "contrast": 7.031061237286228,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      }
+    ]
+  },
+  {
+    "hex": "#FF851B",
+    "name": "orange",
+    "combinations": [
+      {
+        "hex": "#001F3F",
+        "name": "navy",
+        "contrast": 6.801574368147764,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#85144B",
+        "name": "maroon",
+        "contrast": 3.9213051609634544,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#111111",
+        "name": "black",
+        "contrast": 7.753598752843979,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      }
+    ]
+  },
+  {
+    "hex": "#B10DC9",
+    "name": "purple",
+    "combinations": [
+      {
+        "hex": "#7FDBFF",
+        "name": "aqua",
+        "contrast": 3.5749544972404705,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#01FF70",
+        "name": "lime",
+        "contrast": 4.12138142356072,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#FFDC00",
+        "name": "yellow",
+        "contrast": 4.108125225424755,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#FFFFFF",
+        "name": "white",
+        "contrast": 5.569699216092427,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#111111",
+        "name": "black",
+        "contrast": 3.3903196980613464,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#DDDDDD",
