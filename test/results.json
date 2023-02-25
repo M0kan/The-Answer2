@@ -1132,3 +1132,30 @@
           "aaLarge": true,
           "aaa": true,
           "aaaLarge": true
+        }
+      },
+      {
+        "hex": "#B10DC9",
+        "name": "purple",
+        "contrast": 4.10065194814564,
+        "accessibility": {
+          "aa": false,
+          "aaLarge": true,
+          "aaa": false,
+          "aaaLarge": false
+        }
+      },
+      {
+        "hex": "#111111",
+        "name": "black",
+        "contrast": 13.902521074691801,
+        "accessibility": {
+          "aa": true,
+          "aaLarge": true,
+          "aaa": true,
+          "aaaLarge": true
+        }
+      }
+    ]
+  }
+]
