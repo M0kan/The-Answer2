@@ -13,4 +13,16 @@ module.exports = {
     libraryTarget: 'umd'
   },
 
-  module:
+  module: {
+    loaders: [
+      { test: /\.jsx$/, loader: 'jsx-loader' },
+      { test: /\.json$/, loader: 'json-loader' },
+    ]
+  },
+
+  plugins: [
+    new StaticSiteGeneratorPlugin('bundle.js', data.routes, data)
+  ]
+
+};
+
